@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/src/js/jquery.js"></script>
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/owl.carousel.min.css">
     <link rel="stylesheet" href="/src/owl.theme.default.css">
@@ -161,8 +162,8 @@
         </div>
         <!-- end header & p -->
 
-        <div class="flex flex-row gap-6 relative overflow-hidden ">
-            <div class="w-[243px] md:basis-1/4 flex flex-col gap-6 p-4 relative ">
+        <div class="  owl-carousel teachers-carousel ">
+            <div class="w-[243px]  flex flex-col gap-6 p-4 relative ">
                 <img width="260" height="360" class="rounded-2xl" src="/src/imgs/Image_1.png" alt="teacher image">
                 <img width="32" height="32" class="absolute top-5 right-5" src="/src/imgs/play-circle.png" alt="play icon" srcset="/src/imgs/play-circle.svg">
                 <div class="flex flex-col gap-3 text-slate-500 text-sm font-medium leading-tigh">
@@ -185,7 +186,7 @@
             </div>
             <!-- end teacher card 1 -->
 
-            <div class="w-[243px] md:basis-1/4 flex flex-col gap-6 p-4 relative">
+            <div class="w-[243px]  flex flex-col gap-6 p-4 relative">
                 <img width="260" height="360" class="rounded-2xl" src="/src/imgs/Image_2.png" alt="teacher image">
                 <img width="32" height="32" class="absolute top-5 right-5" src="/src/imgs/play-circle.png" alt="play icon" srcset="/src/imgs/play-circle.svg">
                 <div class="flex flex-col gap-3 text-slate-500 text-sm font-medium leading-tigh">
@@ -208,7 +209,7 @@
             </div>
             <!-- end teacher card 2 -->
 
-            <div class="w-[243px] md:basis-1/4 flex flex-col gap-6 p-4 relative">
+            <div class="w-[243px]  flex flex-col gap-6 p-4 relative">
                 <img width="260" height="360" class="rounded-2xl" src="/src/imgs/Image_3.png" alt="teacher image">
                 <img width="32" height="32" class="absolute top-5 right-5" src="/src/imgs/play-circle.png" alt="play icon" srcset="/src/imgs/play-circle.svg">
                 <div class="flex flex-col gap-3 text-slate-500 text-sm font-medium leading-tigh">
@@ -231,7 +232,7 @@
             </div>
             <!-- end teacher card 3 -->
 
-            <div class="w-[243px] md:basis-1/4 flex flex-col gap-6 p-4 relative">
+            <div class="w-[243px]  flex flex-col gap-6 p-4 relative">
                 <img width="260" height="360" class="rounded-2xl" src="/src/imgs/Image_4.png" alt="teacher image">
                 <img width="32" height="32" class="absolute top-5 right-5" src="/src/imgs/play-circle.png" alt="play icon" srcset="/src/imgs/play-circle.svg">
                 <div class="flex flex-col gap-3 text-slate-500 text-sm font-medium leading-tigh">
@@ -313,79 +314,61 @@
     </section>
     <!-- End Features section -->
     <!-- Review Section -->
-    <section class="flex flex-col lg:w-main md:mx-auto gap-[96px] py-[40px]">
+    <section class="flex flex-col gap-[96px] justify-center items-center py-[96px] px[30px]">
+        <!-- section head -->
         <div class="flex flex-col gap-3 text-center">
-            <h1 class="text-center text-gray-900 text-[40px] font-semibold leading-[60px]">تجارب المستخدمين</h1>
-            <p class="text-center text-slate-600 text-base font-medium leading-normal">شاهد و أستمع الأن الي تجارب مستخدمينا ورأيهم في منصتنا.</p>
+            <h2 class="text-slate-950 text-[32px] font-semibold leading-[48px]">ماذا يقول معلمي ممتاز؟</h2>
+            <p class="text-gray-600 text-xl font-normal leading-[30px]">شاهد و أستمع الأن الي تجارب مستخدمينا ورأيهم في منصتنا.</p>
         </div>
-        <!-- end header & p -->
-        <div class="flex flex-col gap-12  justify-center items-center">
-            <!-- reviews carousel -->
-            <div class="flex flex-row gap-[30px] ">
-                <!-- Review 1 Box -->
-                <div class="flex flex-col justify-center items-center gap-12 p-12  ">
-                    <!-- Image -->
-                    <div class="hidden md:flex justify-start  ">
-                        <img class="rounded-[40px] " width="96px" height="96px" src="/src/imgs/review_img_1.png" alt="Reviewer Image">
-                    </div>                    
-                    <!-- Review Text -->
-                    <p class="text-right text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة. واجهة المنصة سهلة الاستخدام وتصفحها بشكل بديهي، ويمكنني الوصول بسهولة إلى مواد الدورات ومتابعة تقدمي. أنصح بشدة بمنصة Momtaz لجميع الطلاب الذين يبحثون عن حلاً شاملاً وفعّالًا للتعلم الإلكتروني.”</p>
-                    <!-- Reviewer INFO -->
-                    <div class="flex flex-row justify-between items-center w-full">
-                        <div class="px-2 py-1 bg-purple-300 rounded-lg justify-center items-center flex">
-                            <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">ولي أمر</h2>
-                        </div>
-                        <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
-                    </div>
+        <!-- carosel row -->
+        <div class="owl-carousel review-carousel" >
+            <div class="flex flex-col p-12 gap-12 justify-start items-start  border rounded-xl ">
+                <div class=" justify-start items-start hidden md:flex">
+                    <img class="rounded-[40px] " width="96px" height="96px" src="/src/imgs/review_img_1.png" alt="Reviewer Image">
                 </div>
-                <!-- End Review 1 Box -->
-                <!-- Review 2 Box -->
-                <div class="flex-col justify-center items-center gap-12 p-12 ">
-                    <!-- Image -->
-                    <div class="hidden md:flex  justify-start ">
-                        <img class="rounded-[40px] " width="96px" height="96px" src="/src/imgs/review_img_2.png" alt="Reviewer Image">
+                <p class=" text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة. واجهة المنصة سهلة الاستخدام وتصفحها بشكل بديهي، ويمكنني الوصول بسهولة إلى مواد الدورات ومتابعة تقدمي. أنصح بشدة بمنصة Momtaz لجميع الطلاب الذين يبحثون عن حلاً شاملاً وفعّالًا للتعلم الإلكتروني.”</p>
+                <div class="flex flex-row justify-between items-center w-full">
+                    <div class="px-2 py-1 bg-purple-300 rounded-lg justify-center items-center flex">
+                        <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">ولي أمر</h2>
                     </div>
-                    <!-- Review Text -->
-                    <p class="text-right text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة.</p>
-                    <!-- Reviewer INFO -->
-                    <div class="flex flex-row justify-between items-center w-full">
-                        <div class="bg-lime-200 px-2 py-1 rounded-lg justify-center items-center flex">
-                            <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">طالبة</h2>
-                        </div>
-                        <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
-                    </div>
-                </div>
-                <!-- End Review 2 Box -->
-                <!-- Review 1 Box -->
-                <div class="flex flex-col justify-center items-center gap-12 p-12">
-                    <!-- Image -->
-                    <div class="hidden md:flex  justify-start ">
-                        <img class="rounded-[40px] " width="96px" height="96px" src="/src/imgs/review_img_1.png" alt="Reviewer Image">
-                    </div>
-                    <!-- Review Text -->
-                    <p class="text-right text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة. واجهة المنصة سهلة الاستخدام وتصفحها بشكل بديهي، ويمكنني الوصول بسهولة إلى مواد الدورات ومتابعة تقدمي. أنصح بشدة بمنصة Momtaz لجميع الطلاب الذين يبحثون عن حلاً شاملاً وفعّالًا للتعلم الإلكتروني.”</p>
-                    <!-- Reviewer INFO -->
-                    <div class="flex flex-row justify-between items-center w-full">
-                        <div class="px-2 py-1 bg-purple-300 rounded-lg justify-center items-center flex">
-                            <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">ولي أمر</h2>
-                        </div>
-                        <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
-                    </div>
-                </div>
-                <!-- End Review 1 Box -->
+                    <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
+                </div> 
             </div>
-            <!-- end carousel -->
-            <div class="hidden justify-center items-center gap-4 md:inline-flex ">
-                <button type="button" class="bg-white rounded-xl border border-zinc-200 justify-center items-center gap-2 flex px-3 py-[15px]">
-                    <img src="/src/imgs/arrow-right.png" alt="arrow-right" srcset="/src/imgs/arrow-right.svg">
-                </button>
-                <button type="button" class="bg-white rounded-xl border border-zinc-200 justify-center items-center gap-2 flex px-3 py-[15px]">
-                    <img src="/src/imgs/arrow-left.png" alt="arrow-left" srcset="/src/imgs/arrow-left.svg">
-                </button>
+            <div class="flex flex-col p-12 gap-12 justify-start items-start  border rounded-xl ">
+                <div class="hidden md:flex justify-start items-start">
+                    <img class="rounded-[40px]" width="96px" height="96px" src="/src/imgs/review_img_2.png" alt="Reviewer Image">
+                </div>
+                <p class=" text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة. </p>
+                <div class="flex flex-row justify-between items-center w-full">
+                    <div class="px-2 py-1 bg-lime-200 rounded-lg justify-center items-center flex">
+                        <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">طالبة</h2>
+                    </div>
+                    <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
+                </div> 
             </div>
-
+            <div class="flex flex-col p-12 gap-12 justify-start items-start  border rounded-xl ">
+                <div class="hidden md:flex justify-start items-start">
+                    <img class="rounded-[40px]  " width="96px" height="96px" src="/src/imgs/review_img_1.png" alt="Reviewer Image">
+                </div>
+                <p class=" text-slate-700 text-lg font-normal leading-loose">“منصة التعلم الإلكترونية Momtaz قد غيرت تجربتي التعليمية بالفعل. الدروس التفاعلية والمحتوى المرئي المشوق يجعلان الدراسة ممتعة ويساعداني على فهم المفاهيم الصعبة بسهولة. واجهة المنصة سهلة الاستخدام وتصفحها بشكل بديهي، ويمكنني الوصول بسهولة إلى مواد الدورات ومتابعة تقدمي. أنصح بشدة بمنصة Momtaz لجميع الطلاب الذين يبحثون عن حلاً شاملاً وفعّالًا للتعلم الإلكتروني.”</p>
+                <div class="flex flex-row justify-between items-center w-full">
+                    <div class="px-2 py-1 bg-purple-300 rounded-lg justify-center items-center flex">
+                        <h2 class=" text-slate-600 text-xs font-medium leading-[18px]">ولي أمر</h2>
+                    </div>
+                    <h2 class="text-center text-slate-950 text-lg font-semibold leading-[27px]">سارة علي</h2>
+                </div> 
+            </div>
+            
         </div>
-
+        <!-- carousel navigation -->
+        <div class="hidden justify-center items-center gap-4 md:inline-flex ">
+            <button type="button" id="prevButton" class="bg-white rounded-xl border border-zinc-200 justify-center items-center gap-2 flex px-3 py-[15px]">
+                <img src="/src/imgs/arrow-right.png" alt="arrow-right" srcset="/src/imgs/arrow-right.svg">
+            </button>
+            <button type="button" id="nextButton" class="bg-white rounded-xl border border-zinc-200 justify-center items-center gap-2 flex px-3 py-[15px]">
+                <img src="/src/imgs/arrow-left.png" alt="arrow-left" srcset="/src/imgs/arrow-left.svg">
+            </button>
+        </div>
     </section>
     <!-- End Review Section -->
     <!-- FAQ Section -->
@@ -396,97 +379,99 @@
         </div>
         <!-- end header & p -->
         <!-- FAQ Items list -->
-        <div class="flex flex-col gap-4  w-full">
+        <div class="flex flex-col gap-4  w-full accordion">
             <!-- FAQ Item 1-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">هل هناك نسخة تجريبية مجانية متاحة؟</h1>
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">هل هناك نسخة تجريبية مجانية متاحة؟</h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
+                </div>
+                <div class="accordion-content ">
                     <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
-                </div>
+                
 
             </div>
             <!-- End FAQ Item 1-->
             <!-- FAQ Item 2-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">هل يمكنني تغيير خطتي لاحقًا؟</h1>
-                    <p class="text-slate-500 text-base font-normal leading-normal hidden">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">هل يمكنني تغيير خطتي لاحقًا؟
+                    </h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                <div class="accordion-content ">
+                    <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
                 </div>
-
             </div>
             <!-- End FAQ Item 2-->
             <!-- FAQ Item 3-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">ما هي سياسة الإلغاء الخاصة بك؟</h1>
-                    <p class="text-slate-500 text-base font-normal leading-normal hidden">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">ما هي سياسة الإلغاء الخاصة بك؟</h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                <div class="accordion-content ">
+                    <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
                 </div>
+                
 
             </div>
             <!-- End FAQ Item 3-->
             <!-- FAQ Item 4-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">هل يمكن إضافة معلومات أخرى إلى الفاتورة؟</h1>
-                    <p class="text-slate-500 text-base font-normal leading-normal hidden">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">هل يمكن إضافة معلومات أخرى إلى الفاتورة؟</h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                <div class="accordion-content ">
+                    <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
                 </div>
+                
 
             </div>
             <!-- End FAQ Item 4-->
             <!-- FAQ Item 5-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">كيف تعمل الفواتير؟</h1>
-                    <p class="text-slate-500 text-base font-normal leading-normal hidden">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">كيف تعمل الفواتير؟</h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                <div class="accordion-content ">
+                    <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
                 </div>
+                
 
             </div>
             <!-- End FAQ Item 5-->
             <!-- FAQ Item 6-->
-            <div class="flex flex-row justify-between  w-full gap-8 p-6 border border-zinc-200 bg-white rounded-[14px] ">
-                <div class="flex flex-col gap-4 justify-start ">
-                    <h1 class="text-slate-950 text-xl font-semibold leading-[30px]">كيف أقوم بتغيير البريد الإلكتروني الخاص بحسابي؟</h1>
-                    <p class="text-slate-500 text-base font-normal leading-normal hidden">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
-
-
+            <div class="flex flex-col gap-4  w-full  p-6 border border-zinc-200 bg-white rounded-[14px] accordion-item">
+                <div class="flex flex-row justify-between gap-8 accordion-header cursor-pointer">
+                    <h2 class="text-slate-950 text-xl font-semibold leading-[30px] accordion-title ">كيف أقوم بتغيير البريد الإلكتروني الخاص بحسابي؟</h2>
+                    <div class="accordion-icon  flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
+                        <img class="transform transition-transform" width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                    </div>
                 </div>
-                <div class="flex justify-center items-center bg-[#E0CEF6] rounded-[15px] w-[40px] h-[40px] shrink-0 cursor-pointer">
-                    <img width="20px" height="20px" src="/src/imgs/arrow-down.png" alt="arrow-down" srcset="/src/imgs/arrow-down.svg">
+                <div class="accordion-content ">
+                    <p class="text-slate-500 text-base font-normal leading-normal ">نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة لتنشيطك وتشغيلك في أسرع وقت ممكن.نعم ، يمكنك تجربتنا مجانًا لمدة 30 يومًا. إذا كنت ترغب في ذلك ، فسنقدم لك مكالمة مجانية ومخصصة لمدة 30 دقيقة.</p>
                 </div>
+                
 
             </div>
             <!-- End FAQ Item 6-->
 
         </div>
-
-
     </section>
-    <!-- End FAQ Section -->
     <!-- Footer -->
     <footer class="flex flex-col ">
         <!-- Footer Content -->
@@ -552,6 +537,7 @@
 
     <!-- JS Files -->
     <script src="/src/js/owl.carousel.min.js"></script>
+    <script src="/src/js/accordion.js"></script>
     <script src="/src/js/carousel.js"></script>
 </body>
 </html>
